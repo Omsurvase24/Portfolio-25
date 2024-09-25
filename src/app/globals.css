@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@font-face {
+  font-family: "Universo Black";
+  src: url("fonts/Fontspring-DEMO-universo-black.otf");
+}
+
+@font-face {
+  font-family: "Universo";
+  src: url("fonts/Fontspring-DEMO-universo-regular.otf");
+}
+
+@font-face {
+  font-family: "Universo Light";
+  src: url("fonts/Fontspring-DEMO-universo-light.otf");
+}
+
+@font-face {
+  font-family: "Universo Stencil";
+  src: url("fonts/Fontspring-DEMO-universo-stencil.otf");
+}
+
+@font-face {
+  font-family: "Universo Thin";
+  src: url("fonts/Fontspring-DEMO-universo-thin.otf");
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Universo', Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
