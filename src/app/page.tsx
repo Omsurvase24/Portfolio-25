@@ -83,7 +83,7 @@ export default function Home() {
       </div>
       <div className="container mx-auto p-10">
         <h1 className="text-5xl font-bold mb-5 text-center">Work</h1>
-        <div className="border-2 border-orange-500 p-2">
+        <div className="bg-slate-900 p-2 rounded-xl">
           <div className="m-8">
             <div className="container mx-auto flex justify-between items-center mb-10">
               <div>
@@ -98,7 +98,7 @@ export default function Home() {
           </div>
         </div>
         <br />
-        <div className="border-2 border-orange-500 p-2">
+        <div className="bg-slate-900 p-2 rounded-xl">
           <div className="m-8">
             <div className="container mx-auto flex justify-between items-center mb-10">
               <div>
@@ -110,6 +110,77 @@ export default function Home() {
             <p className="mb-2">• Developed more than 3 chatbots leveraging Python and various natural language processing models which would help the company to save time and resources.</p>
             <p className="mb-2">• For the final project, created an innovative driving lesson chatbot keeping in mind the customer needs using FastAPI and Google Dialogflow, enhancing user interaction and learning efficiency.</p>
             <p>• Gained hands-on experience with databases like SQLite and MySQL, optimizing data management, performance and retrieval processes.</p>
+          </div>
+        </div>
+      </div>
+      <div className="container mx-auto p-10">
+        <h1 className="text-5xl font-bold mb-10 text-center">Projects</h1>
+        <div className="flex justify-center items-center w-full">
+          <div className="grid md:grid-cols-2 gap-4 w-full">
+            <div className="flex flex-col px-4 py-6 justify-between bg-slate-900 rounded-xl">
+              <div className="flex justify-between items-center w-full mb-2">
+                <div className="flex justify-start items-center">
+                  <h1 className="mb-3 text-xl">DevStream</h1>
+                </div>
+                <div className="flex justify-center items-center mb-3">
+                  <a href="https://github.com/Omsurvase24/DevStream"><img src="/github.png" alt="DevStream" width={30} /></a>
+                </div>
+              </div>
+              <div className="mb-5">
+                <h3>A live streaming platform but for developers or people in tech.</h3>
+              </div>
+              <div className="flex justify-start items-center gap-2">
+                <p className="text-orange-500">• NextJS, TypeScript, MySQL, Tailwind</p>
+              </div>
+            </div>
+            <div className="flex flex-col px-4 py-6 justify-between bg-slate-900 rounded-xl">
+              <div className="flex justify-between items-center w-full mb-2">
+                <div className="flex justify-start items-center">
+                  <h1 className="mb-3 text-xl">DevStream</h1>
+                </div>
+                <div className="flex justify-center items-center mb-3">
+                  <a href="https://github.com/Omsurvase24/DevStream"><img src="/github.png" alt="DevStream" width={30} /></a>
+                </div>
+              </div>
+              <div className="mb-5">
+                <h3>A live streaming platform but for developers or people in tech.</h3>
+              </div>
+              <div className="flex justify-start items-center gap-2">
+                <p className="text-orange-500">• NextJS, TypeScript, MySQL, Tailwind</p>
+              </div>
+            </div>
+            <div className="flex flex-col px-4 py-6 justify-between bg-slate-900 rounded-xl">
+              <div className="flex justify-between items-center w-full mb-2">
+                <div className="flex justify-start items-center">
+                  <h1 className="mb-3 text-xl">DevStream</h1>
+                </div>
+                <div className="flex justify-center items-center mb-3">
+                  <a href="https://github.com/Omsurvase24/DevStream"><img src="/github.png" alt="DevStream" width={30} /></a>
+                </div>
+              </div>
+              <div className="mb-5">
+                <h3>A live streaming platform but for developers or people in tech.</h3>
+              </div>
+              <div className="flex justify-start items-center gap-2">
+                <p className="text-orange-500">• NextJS, TypeScript, MySQL, Tailwind</p>
+              </div>
+            </div>
+            <div className="flex flex-col px-4 py-6 justify-between bg-slate-900 rounded-xl">
+              <div className="flex justify-between items-center w-full mb-2">
+                <div className="flex justify-start items-center">
+                  <h1 className="mb-3 text-xl">DevStream</h1>
+                </div>
+                <div className="flex justify-center items-center mb-3">
+                  <a href="https://github.com/Omsurvase24/DevStream"><img src="/github.png" alt="DevStream" width={30} /></a>
+                </div>
+              </div>
+              <div className="mb-5">
+                <h3>A live streaming platform but for developers or people in tech.</h3>
+              </div>
+              <div className="flex justify-start items-center gap-2">
+                <p className="text-orange-500">• NextJS, TypeScript, MySQL, Tailwind</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
