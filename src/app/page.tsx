@@ -36,10 +36,10 @@ export default function Home() {
             <h1 className={`transition-opacity duration-500 ${fade ? 'opacity-100' : 'opacity-0'} text-5xl font-bold text-orange-500`}>
               {currText}
             </h1>
-            <Button radius="full" className="bg-gradient-to-tr from-orange-300 to-orange-500 text-black shadow-lg mt-5">
+            <Button radius="full" className="bg-gradient-to-tr from-orange-300 to-orange-500 text-black shadow-lg mt-5 font-bold">
               Resume
             </Button>
-            <Button radius="full" className="bg-gradient-to-tr from-orange-300 to-orange-500 text-black shadow-lg mt-5 ml-2">
+            <Button radius="full" className="bg-gradient-to-tr from-orange-300 to-orange-500 text-black shadow-lg mt-5 ml-2 font-bold">
               Contact Info
             </Button>
             <a href="http://github.com/Omsurvase24"><img src="/github.png" alt="github" width={40} className="mt-2" /></a>
@@ -62,8 +62,26 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="container mx-auto p-10 text-center">
+      <div className="container mx-auto p-10 text-center flex flex-nowrap flex-col gap-6 justify-center items-center">
         <h1 className="text-5xl font-bold mb-5">Skills</h1>
+        <div className="flex-wrap flex gap-6 justify-center items-center mb-3">
+          <img src="/icons8-nextjs-144.png" alt="Next.js" width={100} />
+          <img src="/Go-Logo_White.png" alt="Golang" width={150} />
+          <img src="/icons8-django-256.png" alt="Django" width={100} />
+          <img src="/icons8-nodejs-256.png" alt="Node.js" width={100} />
+        </div>
+        <div className="flex-wrap flex gap-6 justify-center items-center mb-3">
+          <img src="/icons8-javascript-250.png" alt="JavaScript" width={100} />
+          <img src="/icons8-python-240.png" alt="Python" width={100} />
+          <img src="/cpp.png" alt="Cpp" width={100} />
+          <img src="/typescript.png" alt="Typescript" width={100} />
+        </div>
+        <div className="flex-wrap flex gap-6 justify-center items-center">
+          <img src="/icons8-react-240.png" alt="React" width={100} />
+          <img src="/icons8-postgresql-250.png" alt="Postgresql" width={100} />
+          <img src="/icons8-mysql-250.png" alt="MySQL" width={100} />
+          <img src="/icons8-git-250.png" alt="Git" width={100} />
+        </div>
       </div>
     </>
   );
