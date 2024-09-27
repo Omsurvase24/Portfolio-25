@@ -63,7 +63,7 @@ export default function Home() {
         </div>
       </div>
       <div className="container mx-auto p-10 text-center flex flex-nowrap flex-col gap-10 justify-center items-center">
-        <h1 className="text-5xl font-bold mb-5">Skills</h1>
+        <h1 className="text-5xl font-bold mb-5 text-orange-500">Skills</h1>
         <div className="flex-wrap flex gap-6 justify-center items-center mb-3">
           <img src="/icons8-nextjs-144.png" alt="Next.js" width={100} />
           <img src="/Go-Logo_White.png" alt="Golang" width={150} />
@@ -79,6 +79,38 @@ export default function Home() {
           <img src="/icons8-postgresql-250.png" alt="Postgresql" width={100} />
           <img src="/icons8-mysql-250.png" alt="MySQL" width={100} />
           <img src="/icons8-git-250.png" alt="Git" width={100} />
+        </div>
+      </div>
+      <div className="container mx-auto p-10">
+        <h1 className="text-5xl font-bold mb-5 text-center">Work</h1>
+        <div className="border-2 border-orange-500 p-2">
+          <div className="m-8">
+            <div className="container mx-auto flex justify-between items-center mb-10">
+              <div>
+                <h1 className="text-4xl font-bold text-orange-500">Freelance</h1>
+                <p>Backend Developer</p>
+              </div>
+              <p>Remote • July - Present</p>
+            </div>
+            <p className="mb-2">• Developing and deploying a scalable community website where pet lovers connect, collaborate, share, and discover.</p>
+            <p className="mb-2">• Wrote more than 50 APIs and created the backend for a community website with features such as messaging, groups, event management, job postings, and much more.</p>
+            <p>• Used Next.js to effectively write serverless functions as well as used Node.js for the other robust backend.</p>
+          </div>
+        </div>
+        <br />
+        <div className="border-2 border-orange-500 p-2">
+          <div className="m-8">
+            <div className="container mx-auto flex justify-between items-center mb-10">
+              <div>
+                <h1 className="text-4xl font-bold text-orange-500">Ahen</h1>
+                <p>Data Science Intern</p>
+              </div>
+              <p>Remote, Pune • Jan - Apr</p>
+            </div>
+            <p className="mb-2">• Developed more than 3 chatbots leveraging Python and various natural language processing models which would help the company to save time and resources.</p>
+            <p className="mb-2">• For the final project, created an innovative driving lesson chatbot keeping in mind the customer needs using FastAPI and Google Dialogflow, enhancing user interaction and learning efficiency.</p>
+            <p>• Gained hands-on experience with databases like SQLite and MySQL, optimizing data management, performance and retrieval processes.</p>
+          </div>
         </div>
       </div>
     </>
