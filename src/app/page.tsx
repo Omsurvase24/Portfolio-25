@@ -136,49 +136,49 @@ export default function Home() {
             <div className="flex flex-col px-4 py-6 justify-between bg-slate-900 rounded-xl">
               <div className="flex justify-between items-center w-full mb-2">
                 <div className="flex justify-start items-center">
-                  <h1 className="mb-3 text-xl">DevStream</h1>
+                  <h1 className="mb-3 text-xl">React Wordle</h1>
                 </div>
                 <div className="flex justify-center items-center mb-3">
-                  <a href="https://github.com/Omsurvase24/DevStream"><img src="/github.png" alt="DevStream" width={30} /></a>
+                  <a href="https://github.com/Omsurvase24/React-Wordle"><img src="/github.png" alt="React Wordle" width={30} /></a>
                 </div>
               </div>
               <div className="mb-5">
-                <h3>A live streaming platform but for developers or people in tech.</h3>
+                <h3>An addicting game where people have to find the right word in 5 attempts.</h3>
               </div>
               <div className="flex justify-start items-center gap-2">
-                <p className="text-orange-500">• NextJS, TypeScript, MySQL, Tailwind</p>
+                <p className="text-orange-500">• ReactJS, HTML, CSS</p>
               </div>
             </div>
             <div className="flex flex-col px-4 py-6 justify-between bg-slate-900 rounded-xl">
               <div className="flex justify-between items-center w-full mb-2">
                 <div className="flex justify-start items-center">
-                  <h1 className="mb-3 text-xl">DevStream</h1>
+                  <h1 className="mb-3 text-xl">Ignite Validation</h1>
                 </div>
                 <div className="flex justify-center items-center mb-3">
-                  <a href="https://github.com/Omsurvase24/DevStream"><img src="/github.png" alt="DevStream" width={30} /></a>
+                  <a href="https://github.com/Omsurvase24/Ignite-Validation"><img src="/github.png" alt="Ignite-Validation" width={30} /></a>
                 </div>
               </div>
               <div className="mb-5">
-                <h3>A live streaming platform but for developers or people in tech.</h3>
+                <h3>A backend that fetches student registeration data for my college hackathon.</h3>
               </div>
               <div className="flex justify-start items-center gap-2">
-                <p className="text-orange-500">• NextJS, TypeScript, MySQL, Tailwind</p>
+                <p className="text-orange-500">• Django, SQLite</p>
               </div>
             </div>
             <div className="flex flex-col px-4 py-6 justify-between bg-slate-900 rounded-xl">
               <div className="flex justify-between items-center w-full mb-2">
                 <div className="flex justify-start items-center">
-                  <h1 className="mb-3 text-xl">DevStream</h1>
+                  <h1 className="mb-3 text-xl">Gym Management System</h1>
                 </div>
                 <div className="flex justify-center items-center mb-3">
-                  <a href="https://github.com/Omsurvase24/DevStream"><img src="/github.png" alt="DevStream" width={30} /></a>
+                  <a href="https://github.com/Omsurvase24/Gym-Management-System"><img src="/github.png" alt="Gym Management System" width={30} /></a>
                 </div>
               </div>
               <div className="mb-5">
-                <h3>A live streaming platform but for developers or people in tech.</h3>
+                <h3>A comprehensive gym management system with payment integration, real time messaging and notification features.</h3>
               </div>
               <div className="flex justify-start items-center gap-2">
-                <p className="text-orange-500">• NextJS, TypeScript, MySQL, Tailwind</p>
+                <p className="text-orange-500">• Django, Razorpay, PostgreSQL</p>
               </div>
             </div>
           </div>
