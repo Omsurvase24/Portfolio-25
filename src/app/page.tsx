@@ -184,6 +184,24 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="container mx-auto p-10">
+        <h1 className="text-5xl font-bold mb-5 text-center">Connect with me</h1>
+        <div className="bg-slate-900 p-2 rounded-xl">
+          <div className="m-8">
+            <div className="container mx-auto mb-10">
+              <div>
+                <h1 className="text-3xl font-bold text-orange-500 mb-5">Just Say Hi</h1>
+                <p>I am available on almost every social media. You can message me, I will reply within a day. I can help you with Next.js, Node.js and Django. I also have experience working with Python, React and Go.</p>
+              </div>
+              <div className="flex flex-row">
+                <a href="http://github.com/Omsurvase24"><img src="/github.png" alt="github" width={40} className="mt-2 mr-2" /></a>
+                <a href="https://www.linkedin.com/in/om-survase-812747241/"><img src="/linkedin.png" alt="github" width={40} className="mt-2 mr-2" /></a>
+                <a href="https://x.com/Om_Survase24"><img src="/icons8-x-250.png" alt="X" width={40} className="mt-2" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
