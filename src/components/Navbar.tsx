@@ -40,13 +40,13 @@ const Navbar = () => {
                     <Link href="/" className="block px-4 py-2 text-white">
                         Home
                     </Link>
-                    <Link href="/about" className="block px-4 py-2 text-white">
+                    <Link href="#about" className="block px-4 py-2 text-white">
                         About
                     </Link>
-                    <Link href="/services" className="block px-4 py-2 text-white">
+                    <Link href="#work" className="block px-4 py-2 text-white">
                         Experience
                     </Link>
-                    <Link href="/contact" className="block px-4 py-2 text-white">
+                    <Link href="#contact" className="block px-4 py-2 text-white">
                         Contact
                     </Link>
                 </div>

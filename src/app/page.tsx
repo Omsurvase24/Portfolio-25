@@ -47,18 +47,18 @@ export default function Home() {
             <a href="https://leetcode.com/omsurvase24/"><img src="/leetcode.png" alt="github" width={40} className="mt-2" /></a>
           </div>
           <div>
-            <Image src="/b&w.webp" alt="Portfolio Image" width={300} height={300} />
+            <Image src="/b&w.webp" alt="Portfolio Image" width={300} height={300} className="rounded-xl" />
           </div>
         </div>
       </div>
-      <div className="container mx-auto p-10">
+      <div className="container mx-auto p-10" id="about">
         <div className="text-center">
           <h1 className="text-5xl font-bold mb-5">About Me</h1>
           <div className="flex justify-center">
             <img src="https://user-images.githubusercontent.com/10498744/210012254-234538ff-d198-48aa-8964-37e6fd45d227.gif" alt="mario" width={400} />
           </div>
           <p className="mt-5">
-            Hello, I am a passionate backend developer with penchant for Python and Django. What sets me apart from my batchmates is that along with my technical expertise, I also have a foundation in leading teams and volunteering for events. I have worked as a data science intern for a few months adding to my interest for Python. I am very curious as a person so you will always find me exploring something, may it be a new tech stack or places. I believe that collaboration and continuous learning are the cornerstones of growth, and I'm always eager to connect with like-minded individuals who share my passion for innovation.
+            I am a passionate software developer and what sets me apart from my batchmates is that along with my technical expertise, I also have a foundation in leading teams and volunteering for events. I am very curious as a person and hence have spent most of college life exploring different technologies and tech stacks to work with. I also have expertise in UI/UX. Finally have settled and found my niche in backend development having some experience. I am also fairly good at machine learning and data science having made a few chatbots for streamlining a process. I have great social skills and have acquired a remote internship / freelance through a hackathon. All in all I have been one of the most consistent and hardworking candidate throughout my college life.
           </p>
         </div>
       </div>
@@ -81,7 +81,7 @@ export default function Home() {
           <img src="/icons8-git-250.png" alt="Git" width={100} />
         </div>
       </div>
-      <div className="container mx-auto p-10">
+      <div className="container mx-auto p-10" id="work">
         <h1 className="text-5xl font-bold mb-5 text-center">Work</h1>
         <div className="bg-slate-900 p-2 rounded-xl">
           <div className="m-8">
@@ -184,19 +184,19 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="container mx-auto p-10">
+      <div className="container mx-auto p-10" id="contact">
         <h1 className="text-5xl font-bold mb-5 text-center">Connect with me</h1>
         <div className="bg-slate-900 p-2 rounded-xl">
           <div className="m-8">
             <div className="container mx-auto mb-10">
               <div>
-                <h1 className="text-3xl font-bold text-orange-500 mb-5">Just Say Hi</h1>
+                <h1 className="text-3xl font-bold text-orange-500 mb-6">Just Say Hi</h1>
                 <p>I am available on almost every social media. You can message me, I will reply within a day. I can help you with Next.js, Node.js and Django. I also have experience working with Python, React and Go.</p>
               </div>
-              <div className="flex flex-row">
-                <a href="http://github.com/Omsurvase24"><img src="/github.png" alt="github" width={40} className="mt-2 mr-2" /></a>
-                <a href="https://www.linkedin.com/in/om-survase-812747241/"><img src="/linkedin.png" alt="github" width={40} className="mt-2 mr-2" /></a>
-                <a href="https://x.com/Om_Survase24"><img src="/icons8-x-250.png" alt="X" width={40} className="mt-2" /></a>
+              <div className="flex flex-row mt-5">
+                <a href="http://github.com/Omsurvase24"><img src="/github.png" alt="github" width={40} className="mr-3" /></a>
+                <a href="https://www.linkedin.com/in/om-survase-812747241/"><img src="/linkedin.png" alt="github" width={40} className="mr-3" /></a>
+                <a href="https://x.com/Om_Survase24"><img src="/icons8-x-250.png" alt="X" width={40} /></a>
               </div>
             </div>
           </div>
