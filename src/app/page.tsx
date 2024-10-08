@@ -176,6 +176,22 @@ export default function Home() {
             <div className="flex flex-col px-4 py-6 justify-between bg-slate-900 rounded-xl">
               <div className="flex justify-between items-center w-full mb-2">
                 <div className="flex justify-start items-center">
+                  <h1 className="mb-3 text-xl">RSSAGG</h1>
+                </div>
+                <div className="flex justify-center items-center mb-3">
+                  <a href="https://github.com/Omsurvase24/rssagg"><img src="/github.png" alt="rssagg" width={30} /></a>
+                </div>
+              </div>
+              <div className="mb-5">
+                <h3>A robust Go Backend, Web Server and RSS blog Scraper.</h3>
+              </div>
+              <div className="flex justify-start items-center gap-2">
+                <p className="text-orange-500">• Go, PostgreSQL, Tailwind</p>
+              </div>
+            </div>
+            <div className="flex flex-col px-4 py-6 justify-between bg-slate-900 rounded-xl">
+              <div className="flex justify-between items-center w-full mb-2">
+                <div className="flex justify-start items-center">
                   <h1 className="mb-3 text-xl">Gym Management System</h1>
                 </div>
                 <div className="flex justify-center items-center mb-3">
