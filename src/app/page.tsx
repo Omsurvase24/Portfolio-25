@@ -98,7 +98,7 @@ export default function Home() {
                 <h1 className="text-4xl font-bold text-orange-500">Freelance</h1>
                 <p>Backend Developer</p>
               </div>
-              <p>Remote • July - Present</p>
+              <p>Remote • July - Sept</p>
             </div>
             <p className="mb-2">• Developing and deploying a scalable community website where pet lovers connect, collaborate, share, and discover.</p>
             <p className="mb-2">• Wrote more than 50 APIs and created the backend for a community website with features such as messaging, groups, event management, job postings, and much more.</p>
