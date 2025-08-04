@@ -55,7 +55,7 @@ export default function Home() {
             <a href="https://leetcode.com/omsurvase24/"><img src="/leetcode.png" alt="github" width={40} className="mt-2" /></a>
           </div>
           <div>
-            <Image src="/b&w.webp" alt="Portfolio Image" width={300} height={300} className="rounded-xl" />
+            <Image src="/edited.jpg" alt="Portfolio Image" width={300} height={300} className="rounded-xl" />
           </div>
         </div>
       </div>
