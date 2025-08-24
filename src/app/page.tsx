@@ -131,7 +131,7 @@ export default function Home() {
                   <h1 className="mb-3 text-xl">DevStream</h1>
                 </div>
                 <div className="flex justify-center items-center mb-3">
-                  <a href="https://github.com/Omsurvase24/DevStream"><img src="/github.png" alt="DevStream" width={30} /></a>
+                  <a href="https://dev-streams.vercel.app/"><img src="/link.png" alt="DevStream" width={30} /></a>
                 </div>
               </div>
               <div className="mb-5">
